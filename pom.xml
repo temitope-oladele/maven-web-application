@@ -95,7 +95,7 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://172.31.82.255:8081/repository/Jenkins_deploy_releases/</url>
+	      <url>http://172.31.82.255:8081/repository/deploy_releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
