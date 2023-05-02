@@ -33,7 +33,8 @@ node{
    deploy adapters: [tomcat9(credentialsId: 'tomcat_florence', path: '', url: 'http://3.87.53.72:8081/')], contextPath: null, war: 'target/*war'
   }
   stage('8emailNotification'){
-mail bcc: '', body: '''Dear Team,
-Please review''', cc: 'nigpreneur@gmail.com', from: '', replyTo: '', subject: 'The project test Env Deployment', to: 'temioladele@gmail.com'
+  mail bcc: '', body: '''Dear Team,
+  Please review and revert.
+  Best regards,''', cc: 'nigpreneur@gmail.com', from: '', replyTo: '', subject: 'Test env deploy', to: 'temioladele@gmail.com'
   }
 }
