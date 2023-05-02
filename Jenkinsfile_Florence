@@ -7,7 +7,7 @@ node{
     sh "${mavenHome}/bin/mvn clean package"
     //bat "${mavenHome}/bin/mvn clean package"
   }
-  /*  
+ 
   stage('3codeQuality'){
     sh "${mavenHome}/bin/mvn sonar:sonar"
   }
@@ -36,5 +36,4 @@ node{
 mail bcc: '', body: '''Dear Team,
 Please review''', cc: 'nigpreneur@gmail.com', from: '', replyTo: '', subject: 'The project test Env Deployment', to: 'temioladele@gmail.com'
   }
-  */
 }
